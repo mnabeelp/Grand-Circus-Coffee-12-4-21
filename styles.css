@@ -2,11 +2,10 @@
 
 /*add rule for body tag */
 body{
-  font-family: Arial,Helvetica,sans-serif
-background-color
+  font-family: Arial,Helvetica,sans-serif;
+background-color: #dedede;
 }
-button
-}
+
 
 button {
   display: block;
@@ -23,16 +22,19 @@ button {
 h1,
 h2 {
   /* add rule for h1, h2 here */
+  color: teal;
 }
 
 img {
-  margin: 10px;
+  margin: 10px 40px;
 }
 
 /* when selecting by class, you use a . followed by the class name */
 
 /* add rule for class hidden below */
-
+hidden {
+  display: none;
+}
 
 .italics {
   font-style: italic;
@@ -42,7 +44,7 @@ img {
 /* when selecting by id, you use a # followed by the id name */
 
 #checkout {
-  /* background-color: magenta;
+  background-color: magenta;
   position: absolute;
   z-index: 1;
   width: 80%;
@@ -53,19 +55,18 @@ img {
   padding: 16px;
 }
 
-#drinks 
-  drinks 
-  
+#drinks{ 
+  margin: 4px auto; 
   width: 810px;
 }
-
+/*
 #price {
   font-size: 18pt;
   font-weight: bold;
 }
-
+*/
 #receipt {
-  /* background-color: white;
+  background-color: white;
   position: absolute;
   z-index: 1;
   width: 30%;
@@ -73,7 +74,7 @@ img {
   left: 35%;
   top: 20%;
   border: solid black 2px;
-  padding: 16px; */
+  padding: 16px;
 }
 
 #restart {
