@@ -32,7 +32,7 @@ img {
 /* when selecting by class, you use a . followed by the class name */
 
 /* add rule for class hidden below */
-hidden {
+.hidden {
   display: none;
 }
 
@@ -59,12 +59,12 @@ hidden {
   margin: 4px auto; 
   width: 810px;
 }
-/*
+
 #price {
   font-size: 18pt;
   font-weight: bold;
 }
-*/
+
 #receipt {
   background-color: white;
   position: absolute;
